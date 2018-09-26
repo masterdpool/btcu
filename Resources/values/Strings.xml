@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">btcu</string>
+  <string name="main_loginfieldhint">Введите логин</string>
+  <string name="main_passwordfieldhint">Введите пароль</string>
+  <string name="main_signinbtn">Войти</string>
+  <string name="main_signupbtn">Регистрация</string>
+  <string name="main_rememberme">Запомнить</string>
+  <string name="register_login">Логин</string>
+  <string name="register_phone">Моб. телефон</string>
+  <string name="register_phone_comment">Номер телефона является идентификатором Вашего платежа в терминале. В случае возникновения спорных вопросов возможно осуществление обратной связи по указанному Вами номеру телефона.</string>
+  <string name="register_phone_validation">Валидация телефона</string>
+  <string name="register_email">Email</string>
+  <string name="register_password">Пароль</string>
+  <string name="register_repeat_password">Повторите пароль</string>
+  <string name="register_register">Зарегестрироваться</string>
+  
+</resources>
