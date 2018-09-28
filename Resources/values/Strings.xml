@@ -22,4 +22,8 @@
   <string name="forgotpassword_btn">Восстановить пароль</string>
   <string name="forgotpassword_topbar_text">ВОССТАНОВЛЕНИЕ ПАРОЛЯ</string>
   
+  <string-array name="banks">
+    <item>Ощадбанк</item>
+    <item>Приват</item>
+  </string-array>
 </resources>

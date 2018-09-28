@@ -28,6 +28,22 @@ namespace testapp
 		{
 		}
 		
+		public partial class Array
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int banks = 2131034112;
+			
+			static Array()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Array()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -69,13 +85,19 @@ namespace testapp
 			public const int PopUpBack = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int RoundedLeft = 2130837512;
+			public const int RoundedBack = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int RoundedRight = 2130837513;
+			public const int RoundedLeft = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int UpperBarBack = 2130837514;
+			public const int RoundedRight = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int RoundedRightText = 2130837515;
+			
+			// aapt resource value: 0x7f02000c
+			public const int UpperBarBack = 2130837516;
 			
 			static Drawable()
 			{
@@ -90,59 +112,164 @@ namespace testapp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060004
-			public const int absoluteLayout1 = 2131099652;
+			// aapt resource value: 0x7f07000b
+			public const int Main = 2131165195;
 			
-			// aapt resource value: 0x7f060010
-			public const int button1 = 2131099664;
+			// aapt resource value: 0x7f070002
+			public const int forgotpassword = 2131165186;
 			
-			// aapt resource value: 0x7f060006
-			public const int button2 = 2131099654;
+			// aapt resource value: 0x7f070009
+			public const int forgotpassword_bottombar = 2131165193;
 			
-			// aapt resource value: 0x7f060000
-			public const int frameLayout1 = 2131099648;
+			// aapt resource value: 0x7f07000a
+			public const int forgotpassword_bottombar_btn = 2131165194;
 			
-			// aapt resource value: 0x7f060003
-			public const int gridLayout1 = 2131099651;
+			// aapt resource value: 0x7f070003
+			public const int forgotpassword_layout = 2131165187;
 			
-			// aapt resource value: 0x7f06000a
-			public const int linearLayout3 = 2131099658;
+			// aapt resource value: 0x7f070007
+			public const int forgotpassword_text = 2131165191;
 			
-			// aapt resource value: 0x7f06000d
-			public const int linearLayout4 = 2131099661;
+			// aapt resource value: 0x7f070004
+			public const int forgotpassword_topbar = 2131165188;
 			
-			// aapt resource value: 0x7f060008
-			public const int loginfield = 2131099656;
+			// aapt resource value: 0x7f070006
+			public const int forgotpassword_topbar_btn = 2131165190;
 			
-			// aapt resource value: 0x7f060009
-			public const int passwordfield = 2131099657;
+			// aapt resource value: 0x7f070005
+			public const int forgotpassword_topbar_text = 2131165189;
 			
-			// aapt resource value: 0x7f060011
-			public const int register_phonefield = 2131099665;
+			// aapt resource value: 0x7f070000
+			public const int frameLayout1 = 2131165184;
 			
-			// aapt resource value: 0x7f06000b
-			public const int rememberme = 2131099659;
+			// aapt resource value: 0x7f07001e
+			public const int linearLayout12 = 2131165214;
 			
-			// aapt resource value: 0x7f060001
-			public const int showSignInView = 2131099649;
+			// aapt resource value: 0x7f070026
+			public const int register = 2131165222;
 			
-			// aapt resource value: 0x7f060002
-			public const int signinlayout = 2131099650;
+			// aapt resource value: 0x7f070024
+			public const int register_bottombar = 2131165220;
 			
-			// aapt resource value: 0x7f060007
-			public const int textView1 = 2131099655;
+			// aapt resource value: 0x7f070025
+			public const int register_bottombar_btn = 2131165221;
 			
-			// aapt resource value: 0x7f060005
-			public const int textView2 = 2131099653;
+			// aapt resource value: 0x7f070030
+			public const int register_email_input = 2131165232;
 			
-			// aapt resource value: 0x7f06000c
-			public const int textView23 = 2131099660;
+			// aapt resource value: 0x7f07002f
+			public const int register_email_text = 2131165231;
 			
-			// aapt resource value: 0x7f06000e
-			public const int textView3 = 2131099662;
+			// aapt resource value: 0x7f070008
+			public const int register_input = 2131165192;
 			
-			// aapt resource value: 0x7f06000f
-			public const int textView4 = 2131099663;
+			// aapt resource value: 0x7f070027
+			public const int register_layout = 2131165223;
+			
+			// aapt resource value: 0x7f07002c
+			public const int register_login_input = 2131165228;
+			
+			// aapt resource value: 0x7f07002b
+			public const int register_login_text = 2131165227;
+			
+			// aapt resource value: 0x7f070032
+			public const int register_password_input = 2131165234;
+			
+			// aapt resource value: 0x7f070031
+			public const int register_password_text = 2131165233;
+			
+			// aapt resource value: 0x7f07002e
+			public const int register_phone_comment = 2131165230;
+			
+			// aapt resource value: 0x7f070020
+			public const int register_phone_layout = 2131165216;
+			
+			// aapt resource value: 0x7f070021
+			public const int register_phone_layout_countrycode = 2131165217;
+			
+			// aapt resource value: 0x7f070022
+			public const int register_phone_layout_input = 2131165218;
+			
+			// aapt resource value: 0x7f07002d
+			public const int register_phone_text = 2131165229;
+			
+			// aapt resource value: 0x7f070034
+			public const int register_reapeatpassword_input = 2131165236;
+			
+			// aapt resource value: 0x7f070033
+			public const int register_reapeatpassword_text = 2131165235;
+			
+			// aapt resource value: 0x7f070028
+			public const int register_topbar = 2131165224;
+			
+			// aapt resource value: 0x7f07002a
+			public const int register_topbar_btn = 2131165226;
+			
+			// aapt resource value: 0x7f070029
+			public const int register_topbar_text = 2131165225;
+			
+			// aapt resource value: 0x7f07001d
+			public const int scrollView1 = 2131165213;
+			
+			// aapt resource value: 0x7f070001
+			public const int showSignInView = 2131165185;
+			
+			// aapt resource value: 0x7f07000c
+			public const int signin = 2131165196;
+			
+			// aapt resource value: 0x7f07001b
+			public const int signin_bottombar = 2131165211;
+			
+			// aapt resource value: 0x7f07001c
+			public const int signin_bottombar_text = 2131165212;
+			
+			// aapt resource value: 0x7f07000d
+			public const int signin_layout = 2131165197;
+			
+			// aapt resource value: 0x7f070018
+			public const int signin_linkbtns = 2131165208;
+			
+			// aapt resource value: 0x7f07001a
+			public const int signin_linkbtns_restore = 2131165210;
+			
+			// aapt resource value: 0x7f070019
+			public const int signin_linkbtns_signup = 2131165209;
+			
+			// aapt resource value: 0x7f070012
+			public const int signin_login_input = 2131165202;
+			
+			// aapt resource value: 0x7f070011
+			public const int signin_login_text = 2131165201;
+			
+			// aapt resource value: 0x7f070014
+			public const int signin_password_input = 2131165204;
+			
+			// aapt resource value: 0x7f070013
+			public const int signin_password_text = 2131165203;
+			
+			// aapt resource value: 0x7f070015
+			public const int signin_rememberme = 2131165205;
+			
+			// aapt resource value: 0x7f070016
+			public const int signin_rememberme_checkbox = 2131165206;
+			
+			// aapt resource value: 0x7f070017
+			public const int signin_rememberme_text = 2131165207;
+			
+			// aapt resource value: 0x7f07000e
+			public const int signin_topbar = 2131165198;
+			
+			// aapt resource value: 0x7f070010
+			public const int signin_topbar_btn = 2131165200;
+			
+			// aapt resource value: 0x7f07000f
+			public const int signin_topbar_text = 2131165199;
+			
+			// aapt resource value: 0x7f070023
+			public const int spinner1 = 2131165219;
+			
+			// aapt resource value: 0x7f07001f
+			public const int textView1 = 2131165215;
 			
 			static Id()
 			{
@@ -158,10 +285,16 @@ namespace testapp
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int forgotpassword = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Register = 2130903041;
+			public const int Main = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int profile = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int Register = 2130903043;
 			
 			static Layout()
 			{
@@ -179,47 +312,65 @@ namespace testapp
 			// aapt resource value: 0x7f040000
 			public const int app_name = 2130968576;
 			
-			// aapt resource value: 0x7f040001
-			public const int main_loginfieldhint = 2130968577;
+			// aapt resource value: 0x7f040013
+			public const int forgotpassword_btn = 2130968595;
 			
-			// aapt resource value: 0x7f040002
-			public const int main_passwordfieldhint = 2130968578;
+			// aapt resource value: 0x7f040012
+			public const int forgotpassword_hinttext = 2130968594;
 			
-			// aapt resource value: 0x7f040006
-			public const int main_rememberme = 2130968582;
+			// aapt resource value: 0x7f040011
+			public const int forgotpassword_text = 2130968593;
 			
-			// aapt resource value: 0x7f040005
-			public const int main_restore_password = 2130968581;
-			
-			// aapt resource value: 0x7f040003
-			public const int main_signinbtn = 2130968579;
-			
-			// aapt resource value: 0x7f040004
-			public const int main_signupbtn = 2130968580;
-			
-			// aapt resource value: 0x7f04000b
-			public const int register_email = 2130968587;
-			
-			// aapt resource value: 0x7f040007
-			public const int register_login = 2130968583;
-			
-			// aapt resource value: 0x7f04000c
-			public const int register_password = 2130968588;
-			
-			// aapt resource value: 0x7f040008
-			public const int register_phone = 2130968584;
-			
-			// aapt resource value: 0x7f040009
-			public const int register_phone_comment = 2130968585;
-			
-			// aapt resource value: 0x7f04000a
-			public const int register_phone_validation = 2130968586;
-			
-			// aapt resource value: 0x7f04000e
-			public const int register_register = 2130968590;
+			// aapt resource value: 0x7f040014
+			public const int forgotpassword_topbar_text = 2130968596;
 			
 			// aapt resource value: 0x7f04000d
-			public const int register_repeat_password = 2130968589;
+			public const int register_email = 2130968589;
+			
+			// aapt resource value: 0x7f040009
+			public const int register_login = 2130968585;
+			
+			// aapt resource value: 0x7f04000e
+			public const int register_password = 2130968590;
+			
+			// aapt resource value: 0x7f04000a
+			public const int register_phone = 2130968586;
+			
+			// aapt resource value: 0x7f04000b
+			public const int register_phone_comment = 2130968587;
+			
+			// aapt resource value: 0x7f04000c
+			public const int register_phone_validation = 2130968588;
+			
+			// aapt resource value: 0x7f040010
+			public const int register_register = 2130968592;
+			
+			// aapt resource value: 0x7f04000f
+			public const int register_repeat_password = 2130968591;
+			
+			// aapt resource value: 0x7f040007
+			public const int signin_login = 2130968583;
+			
+			// aapt resource value: 0x7f040001
+			public const int signin_loginfieldhint = 2130968577;
+			
+			// aapt resource value: 0x7f040008
+			public const int signin_password = 2130968584;
+			
+			// aapt resource value: 0x7f040002
+			public const int signin_passwordfieldhint = 2130968578;
+			
+			// aapt resource value: 0x7f040006
+			public const int signin_rememberme = 2130968582;
+			
+			// aapt resource value: 0x7f040005
+			public const int signin_restore_password = 2130968581;
+			
+			// aapt resource value: 0x7f040003
+			public const int signin_signinbtn = 2130968579;
+			
+			// aapt resource value: 0x7f040004
+			public const int signin_signupbtn = 2130968580;
 			
 			static String()
 			{
@@ -234,11 +385,14 @@ namespace testapp
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int CustomText = 2131034112;
+			// aapt resource value: 0x7f060000
+			public const int CustomText = 2131099648;
 			
-			// aapt resource value: 0x7f050001
-			public const int TextLink = 2131034113;
+			// aapt resource value: 0x7f060001
+			public const int TextLink = 2131099649;
+			
+			// aapt resource value: 0x7f060002
+			public const int mySpinnerItemStyle = 2131099650;
 			
 			static Style()
 			{

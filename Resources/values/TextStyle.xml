@@ -6,4 +6,7 @@
   <style name="TextLink">
     <item name="android:textColor">#516f70</item>
   </style>
+  <style name="mySpinnerItemStyle">
+    <item name="android:textColor">#9c9c9c</item>
+  </style>
 </resources>
