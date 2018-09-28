@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">btcu</string>
-  <string name="main_loginfieldhint">Введите логин</string>
-  <string name="main_passwordfieldhint">Введите пароль</string>
-  <string name="main_signinbtn">Войти</string>
-  <string name="main_signupbtn">Регистрация</string>
-  <string name="main_rememberme">Запомнить</string>
+  <string name="signin_loginfieldhint">Введите логин</string>
+  <string name="signin_passwordfieldhint">Введите пароль</string>
+  <string name="signin_signinbtn">Войти</string>
+  <string name="signin_signupbtn">Регистрация</string>
+  <string name="signin_restore_password">Восстановить пароль</string>
+  <string name="signin_rememberme">Запомнить</string>
+  <string name="signin_login">Логин</string>
+  <string name="signin_password">Пароль</string>
   <string name="register_login">Логин</string>
   <string name="register_phone">Моб. телефон</string>
   <string name="register_phone_comment">Номер телефона является идентификатором Вашего платежа в терминале. В случае возникновения спорных вопросов возможно осуществление обратной связи по указанному Вами номеру телефона.</string>
   <string name="register_phone_validation">Валидация телефона</string>
-  <string name="register_email">Email</string>
+  <string name="register_email">E-mail</string>
   <string name="register_password">Пароль</string>
   <string name="register_repeat_password">Повторите пароль</string>
-  <string name="register_register">Зарегестрироваться</string>
+  <string name="register_register">Зарегистрироваться</string>
+  <string name="forgotpassword_text">E-mail</string>
+  <string name="forgotpassword_hinttext">E-mail</string>
+  <string name="forgotpassword_btn">Восстановить пароль</string>
+  <string name="forgotpassword_topbar_text">ВОССТАНОВЛЕНИЕ ПАРОЛЯ</string>
   
 </resources>

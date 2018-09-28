@@ -45,16 +45,37 @@ namespace testapp
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int fon = 2130837504;
+			public const int ButtonBack = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int fon1 = 2130837505;
+			public const int DownBarBack = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int fon2 = 2130837506;
+			public const int fon = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int fon3 = 2130837507;
+			public const int fon1 = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int fon2 = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int fon3 = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int InputFieldBack = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int PopUpBack = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int RoundedLeft = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int RoundedRight = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int UpperBarBack = 2130837514;
 			
 			static Drawable()
 			{
@@ -69,65 +90,59 @@ namespace testapp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f06000d
-			public const int button1 = 2131099661;
-			
-			// aapt resource value: 0x7f060013
-			public const int button2 = 2131099667;
-			
-			// aapt resource value: 0x7f060009
-			public const int editText1 = 2131099657;
-			
-			// aapt resource value: 0x7f06000b
-			public const int editText2 = 2131099659;
-			
-			// aapt resource value: 0x7f06000f
-			public const int editText3 = 2131099663;
-			
-			// aapt resource value: 0x7f060011
-			public const int editText4 = 2131099665;
-			
-			// aapt resource value: 0x7f060012
-			public const int editText5 = 2131099666;
-			
-			// aapt resource value: 0x7f060001
-			public const int gridLayout1 = 2131099649;
-			
-			// aapt resource value: 0x7f060000
-			public const int linearLayout1 = 2131099648;
-			
-			// aapt resource value: 0x7f060005
-			public const int linearLayout2 = 2131099653;
-			
-			// aapt resource value: 0x7f060002
-			public const int loginfield = 2131099650;
-			
-			// aapt resource value: 0x7f060003
-			public const int passwordfield = 2131099651;
-			
 			// aapt resource value: 0x7f060004
-			public const int rememberme = 2131099652;
-			
-			// aapt resource value: 0x7f060006
-			public const int signin = 2131099654;
-			
-			// aapt resource value: 0x7f060007
-			public const int signup = 2131099655;
-			
-			// aapt resource value: 0x7f060008
-			public const int textView1 = 2131099656;
-			
-			// aapt resource value: 0x7f06000a
-			public const int textView2 = 2131099658;
-			
-			// aapt resource value: 0x7f06000e
-			public const int textView4 = 2131099662;
+			public const int absoluteLayout1 = 2131099652;
 			
 			// aapt resource value: 0x7f060010
-			public const int textView5 = 2131099664;
+			public const int button1 = 2131099664;
+			
+			// aapt resource value: 0x7f060006
+			public const int button2 = 2131099654;
+			
+			// aapt resource value: 0x7f060000
+			public const int frameLayout1 = 2131099648;
+			
+			// aapt resource value: 0x7f060003
+			public const int gridLayout1 = 2131099651;
+			
+			// aapt resource value: 0x7f06000a
+			public const int linearLayout3 = 2131099658;
+			
+			// aapt resource value: 0x7f06000d
+			public const int linearLayout4 = 2131099661;
+			
+			// aapt resource value: 0x7f060008
+			public const int loginfield = 2131099656;
+			
+			// aapt resource value: 0x7f060009
+			public const int passwordfield = 2131099657;
+			
+			// aapt resource value: 0x7f060011
+			public const int register_phonefield = 2131099665;
+			
+			// aapt resource value: 0x7f06000b
+			public const int rememberme = 2131099659;
+			
+			// aapt resource value: 0x7f060001
+			public const int showSignInView = 2131099649;
+			
+			// aapt resource value: 0x7f060002
+			public const int signinlayout = 2131099650;
+			
+			// aapt resource value: 0x7f060007
+			public const int textView1 = 2131099655;
+			
+			// aapt resource value: 0x7f060005
+			public const int textView2 = 2131099653;
 			
 			// aapt resource value: 0x7f06000c
-			public const int textView7 = 2131099660;
+			public const int textView23 = 2131099660;
+			
+			// aapt resource value: 0x7f06000e
+			public const int textView3 = 2131099662;
+			
+			// aapt resource value: 0x7f06000f
+			public const int textView4 = 2131099663;
 			
 			static Id()
 			{
@@ -170,8 +185,11 @@ namespace testapp
 			// aapt resource value: 0x7f040002
 			public const int main_passwordfieldhint = 2130968578;
 			
+			// aapt resource value: 0x7f040006
+			public const int main_rememberme = 2130968582;
+			
 			// aapt resource value: 0x7f040005
-			public const int main_rememberme = 2130968581;
+			public const int main_restore_password = 2130968581;
 			
 			// aapt resource value: 0x7f040003
 			public const int main_signinbtn = 2130968579;
@@ -179,29 +197,29 @@ namespace testapp
 			// aapt resource value: 0x7f040004
 			public const int main_signupbtn = 2130968580;
 			
-			// aapt resource value: 0x7f04000a
-			public const int register_email = 2130968586;
-			
-			// aapt resource value: 0x7f040006
-			public const int register_login = 2130968582;
-			
 			// aapt resource value: 0x7f04000b
-			public const int register_password = 2130968587;
+			public const int register_email = 2130968587;
 			
 			// aapt resource value: 0x7f040007
-			public const int register_phone = 2130968583;
-			
-			// aapt resource value: 0x7f040008
-			public const int register_phone_comment = 2130968584;
-			
-			// aapt resource value: 0x7f040009
-			public const int register_phone_validation = 2130968585;
-			
-			// aapt resource value: 0x7f04000d
-			public const int register_register = 2130968589;
+			public const int register_login = 2130968583;
 			
 			// aapt resource value: 0x7f04000c
-			public const int register_repeat_password = 2130968588;
+			public const int register_password = 2130968588;
+			
+			// aapt resource value: 0x7f040008
+			public const int register_phone = 2130968584;
+			
+			// aapt resource value: 0x7f040009
+			public const int register_phone_comment = 2130968585;
+			
+			// aapt resource value: 0x7f04000a
+			public const int register_phone_validation = 2130968586;
+			
+			// aapt resource value: 0x7f04000e
+			public const int register_register = 2130968590;
+			
+			// aapt resource value: 0x7f04000d
+			public const int register_repeat_password = 2130968589;
 			
 			static String()
 			{
@@ -218,6 +236,9 @@ namespace testapp
 			
 			// aapt resource value: 0x7f050000
 			public const int CustomText = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int TextLink = 2131034113;
 			
 			static Style()
 			{

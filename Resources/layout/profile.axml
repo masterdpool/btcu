@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView1" />
+    <TextView
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+  <TextView
+                android:text="@string/register_login"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/register_login_text"
+                android:textColor="#9c9c9c"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="10dp" />
+  <EditText
+      android:id="@+id/register_login_input"
+      android:textColor="#9c9c9c"
+      android:layout_width="match_parent"
+      android:layout_height="30dp"
+      android:layout_marginBottom="7dp"
+      android:layout_marginTop="7dp"
+      android:inputType="text"
+      android:textSize="15dp"
+      android:textStyle="italic"
+      android:imeOptions="actionNext"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:background="@drawable/inputfieldback"
+      android:paddingStart="10dp"
+      android:paddingLeft="10dp" />
+  <TextView
+                android:text="@string/register_login"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/register_login_text"
+                android:textColor="#9c9c9c"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="10dp" />
+  <EditText
+      android:id="@+id/register_login_input"
+      android:textColor="#9c9c9c"
+      android:layout_width="match_parent"
+      android:layout_height="30dp"
+      android:layout_marginBottom="7dp"
+      android:layout_marginTop="7dp"
+      android:inputType="text"
+      android:textSize="15dp"
+      android:textStyle="italic"
+      android:imeOptions="actionNext"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:background="@drawable/inputfieldback"
+      android:paddingStart="10dp"
+      android:paddingLeft="10dp" />
+  <TextView
+                android:text="@string/register_login"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/register_login_text"
+                android:textColor="#9c9c9c"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="10dp" />
+  <EditText
+      android:id="@+id/register_login_input"
+      android:textColor="#9c9c9c"
+      android:layout_width="match_parent"
+      android:layout_height="30dp"
+      android:layout_marginBottom="7dp"
+      android:layout_marginTop="7dp"
+      android:inputType="text"
+      android:textSize="15dp"
+      android:textStyle="italic"
+      android:imeOptions="actionNext"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:background="@drawable/inputfieldback"
+      android:paddingStart="10dp"
+      android:paddingLeft="10dp" />
+  <TextView
+                android:text="@string/register_login"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/register_login_text"
+                android:textColor="#9c9c9c"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="10dp" />
+  <EditText
+      android:id="@+id/register_login_input"
+      android:textColor="#9c9c9c"
+      android:layout_width="match_parent"
+      android:layout_height="30dp"
+      android:layout_marginBottom="7dp"
+      android:layout_marginTop="7dp"
+      android:inputType="text"
+      android:textSize="15dp"
+      android:textStyle="italic"
+      android:imeOptions="actionNext"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:background="@drawable/inputfieldback"
+      android:paddingStart="10dp"
+      android:paddingLeft="10dp" />
+</LinearLayout>

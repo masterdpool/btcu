@@ -3,4 +3,7 @@
   <style name="CustomText">
     <item name="android:textColor">#000000</item>
   </style>
+  <style name="TextLink">
+    <item name="android:textColor">#516f70</item>
+  </style>
 </resources>
