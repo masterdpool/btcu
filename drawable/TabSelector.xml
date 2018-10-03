@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- AOSP copyright notice can be found at the above link -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <!--<item android:state_window_focused="true" android:drawable="@drawable/fon2" />
+  <item android:state_checkable="true" android:drawable="@drawable/fon2" />
+  <item android:state_checked="true" android:drawable="@drawable/fon2" />-->
+  <item android:state_selected="true" >
+    <shape>
+      <gradient android:type="linear" android:endColor="#f0dd34" android:startColor="#f0dd34" android:angle="90.0" />
+      <corners  android:topLeftRadius="10.0dip" android:topRightRadius="10.0dip" />
+      
+    </shape>
+  </item>/>
+  <item >
+    <shape>
+      <gradient android:type="linear" android:endColor="#9e933c" android:startColor="#9e933c" android:angle="90.0" />
+      <corners  android:topLeftRadius="10.0dip" android:topRightRadius="10.0dip" />
+    </shape>
+  </item>
+</selector>

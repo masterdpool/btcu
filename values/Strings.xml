@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">btcu</string>
+  <string name="signin_loginfieldhint">Введите логин</string>
+  <string name="signin_passwordfieldhint">Введите пароль</string>
+  <string name="signin_signinbtn">Войти</string>
+  <string name="signin_signupbtn">Регистрация</string>
+  <string name="signin_restore_password">Восстановить пароль</string>
+  <string name="signin_rememberme">Запомнить</string>
+  <string name="signin_login">Логин</string>
+  <string name="signin_password">Пароль</string>
+  <string name="register_login">Логин</string>
+  <string name="register_phone">Моб. телефон</string>
+  <string name="register_phone_comment">Номер телефона является идентификатором Вашего платежа в терминале. В случае возникновения спорных вопросов возможно осуществление обратной связи по указанному Вами номеру телефона.</string>
+  <string name="register_phone_validation">Валидация телефона</string>
+  <string name="register_email">E-mail</string>
+  <string name="register_password">Пароль</string>
+  <string name="register_repeat_password">Повторите пароль</string>
+  <string name="register_register">Зарегистрироваться</string>
+  <string name="forgotpassword_text">E-mail</string>
+  <string name="forgotpassword_hinttext">E-mail</string>
+  <string name="forgotpassword_btn">Восстановить пароль</string>
+  <string name="forgotpassword_topbar_text">ВОССТАНОВЛЕНИЕ ПАРОЛЯ</string>
+  <string name="profile_profilesettings">Настройки пользователя</string>
+  <string name="profile_email">E-mail</string>
+  <string name="profile_currentpassword">Текущий пароль</string>
+  <string name="profile_newpassowrd">Пароль</string>
+  <string name="profile_repeatnewpassword">Подтверждение пароля</string>
+  <string name="profile_phone">Моб. телефон</string>
+  <string name="profile_skype">Skype</string>
+  <string name="profile_paymentsettings">Настройка оплаты</string>
+  <string name="profile_alias">Алиас пользователя</string>
+  <string name="profile_bitcoinadress">Биткоин адрес</string>
+  <string name="profile_card">Номер карты</string>
+  <string name="profile_bank">Банк</string>
+  <string name="profile_fio">ФИО владельца карты</string>
+  <string name="profile_btnsave">Сохранить</string>
+  <string name="support_name">Имя</string>
+  <string name="support_email">E-mail</string>
+  <string name="support_phone">Телефон</string>
+  <string name="support_passoword">Пароль</string>
+  <string name="support_repeatpassword">Повтор пароля</string>
+
+
+  <string name="BTC">1 BTC</string>
+  <string name="Main_Tab1">Главная</string>
+  <string name="Main_Tab2">Операции</string>
+  <string name="Main_Tab3">Профиль</string>
+  <string name="Main_Tab4">F.A.Q</string>
+
+  <string name="BuySellTab1">ПОЛУЧИТЬ</string>
+  <string name="BuySellTab2">ВЫВЕСТИ</string>
+  <string name="BuySellText1">ЗА НАЛИЧНЫЕ В ТЕРМИНАЛЕ</string>
+  <string name="BuySellText2">ПОПОЛНЕНИЕ ЧЕРЕЗ VISA ИЛИ MASTERCARD</string>
+  <string name="BuySellText3">BTC</string>
+  <string name="BuySellText4">BTC LIGHYNING</string>
+
+  <string name="OperationBalance">БАЛАНС:</string>
+  <string name="OperationButonWithdraw">ВЫВЕСТИ</string>
+  <string name="OperationTitle">Операции</string>
+  
+  <string-array name ="faq">
+    <item>Передача кодов сервиса третьим лицам.:3.4 Сервис btcu.biz не является системой элэктронных платежей. Пользователь не имеет права передавать коды активации.</item>
+    <item>Передача кодов сервиса третьим лицам.:3.4 Сервис btcu.biz не является системой элэктронных платежей. Пользователь не имеет права передавать коды активации.</item>
+    <item>Передача кодов сервиса третьим лицам.:3.4 Сервис btcu.biz не является системой элэктронных платежей. Пользователь не имеет права передавать коды активации.</item>
+    <item>Передача кодов сервиса третьим лицам.:3.4 Сервис btcu.biz не является системой элэктронных платежей. Пользователь не имеет права передавать коды активации.</item>
+    <item>Передача кодов сервиса третьим лицам.:3.4 Сервис btcu.biz не является системой элэктронных платежей. Пользователь не имеет права передавать коды активации.</item>
+    <item>Передача кодов сервиса третьим лицам.:3.4 Сервис btcu.biz не является системой элэктронных платежей. Пользователь не имеет права передавать коды активации.</item>
+  </string-array>
+  <string-array name="banks">
+    <item>Ощадбанк</item>
+    <item>Приват</item>
+  </string-array>
+  <string-array name="languages">
+    <item>EN</item>
+    <item>RU</item>
+  </string-array>
+</resources>
